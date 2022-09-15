@@ -16,6 +16,14 @@ h1 {
   
 }
 
+li.buttom {
+  text-align: center;
+  display: inline;
+  padding: 0px 20px;
+  text-decoration: none;
+  color: white;
+}
+
 p{
   background-color: black;
   color: white;
@@ -26,21 +34,32 @@ p{
   
 }
 
+header{
+  height: 50px;
+  width: 100%;
+  line-height: 60px;
+}
+
 img{
+  margin: 15px;
   width: 200px;
   height: 200px;
-  display: flex;
-  justify-content: left;
   
 }
 
 ul{
-  list-style-type: none;
+  
 }
 
 nav{
-  display: flex;
- justify-content: center;
+  line-height: 50px;
+  text-align: right;
+  height: 50px;
+  width: 100x;
+  border: solid black;
+  position: absolute;
+  top: 130px;
+  right: 20px;
 }
 
 
@@ -50,11 +69,28 @@ section.container{
   flex-direction: row;
   margin-left: 5px;
   margin-right: 5px;
+  justify-content: space-between; 
+  padding: 15px;
+  border: solid white;
+  border-radius: 4px;
+  
 }
 
+h2.title{
+  text-align: center;
+  font-size: larger;
+  font-weight: bolder;
+  margin: 10px;
+}
+
+
 div.item{
+  color: white;
   flex: 0 0 33%;
   max-width: 33%;
+  border-radius: 5px;
+  background-color: black;
+
 }
 
 p.box-text {
@@ -62,4 +98,29 @@ p.box-text {
   background-color:rgb(26, 16, 16);
   color: rgb(145, 20, 20);
 
+}
+
+h3{
+  font-size: larger;
+  text-align: center;
+}
+form{
+  margin: 0 auto;
+  width: 500px;
+  padding: 10px;
+  border: 5px solid black;
+  border-radius: 20px;
+  text-align: center;
+}  
+
+button {
+  height: 40px;
+  width: 120px;
+  background-color: black;
+  color: white;
+}
+
+
+footer{
+  margin: 10px
 }

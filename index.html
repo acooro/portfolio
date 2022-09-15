@@ -11,28 +11,29 @@
 
 
 <body>
-  <h1>
-    Dong Nguyen
-  </h1>
-  <p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ex similique soluta libero perspiciatis necessitatibus dolorem odit, labore maxime nisi atque neque corrupti! Quidem ratione dignissimos, at provident quae magni?
-  </p>
-
-  <main>
+  <header>
+   <h1>
+     Dong Nguyen
+   </h1>    
+  </header>
     <img src="./assets/image/chrome_2022-09-07_13-27-26.png" alt="Picture of a persone wearing maskes">
      <div>
         <nav>
           <ul>
-          <li>About Me</li>
-          <li>My Work</li>
-          <li>Contact</li>
+          <li class="buttom"><a href="https://github.com/">Github</a></li>
+          <li class="buttom">My Work</li>
+          <li class="buttom">Contact</li>
           </ul>
       </nav>
      </div>
+  </header>   
+
+<Main>
+
   <section class="container">
     <div class="item">
       <figure class="box">
-        <h2>
+        <h2 class="title">
         First Project
         </h2>
           <div>
@@ -42,10 +43,12 @@
         </div>
       </figure>
     </div>
+  </section>
 
+  <section class="container">
     <div class="item">
       <figure class="box">
-        <h2>
+        <h2 class="title">
         2nd Project
         </h2>
           <div>
@@ -55,10 +58,12 @@
         </div>
       </figure>
     </div>
+  </section>
 
+  <section class="container">
     <div class="item">
       <figure class="box">
-        <h2>
+        <h2 class="title">
         About me
         </h2>
           <div>
@@ -70,12 +75,30 @@
     </div>
 
   </section> 
-
+</Main>
+  <section>
+    <h3>Contact Me</h3>
+    <form>
+      <ul>
+        <li>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user-name">
+        </li>
+        <li>
+          <label for="email">Email:</label>
+          <input type="text" id="email" name="user-email">
+        </li>
+      </ul>
+      <div>
+        <button type="submit">SEND</button>
+      </div>
+    </form>
+  </section>
 
   <footer>
-    <h3>
-      Contact Info
-    </h3>
+    <h4>
+      Thanks for visiting my Profolio!!!!
+    </h4>
 
   </footer>
 </body>

@@ -1,0 +1,23 @@
+
+Media Query
+
+@media screen and (max-width: 992px) {
+  header {
+    background: #772014;
+  }
+}
+
+changing mult DOM:
+
+function styleDomElements(arrOfElems, propToChange, newValue){
+  for (var i = 0; i < arrOfElems.length; i++) {
+    arrOfElems[i].setAttribute(propToChange, newValue);
+   }
+ }
+
+
+var myArr = [ "bob", "mary", "jane", "fred"];
+myArr.forEach (function (name, idx){
+
+
+})

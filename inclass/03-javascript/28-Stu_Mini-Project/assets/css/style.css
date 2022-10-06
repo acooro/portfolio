@@ -1,0 +1,105 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: var(--bg-color);
+  color: var(--main-color)
+}
+
+:root{
+  --main-color: rgb(255, 1, 255);
+  --bg-color: rgb(32, 31, 31);
+  --border-color: rgb(235, 124, 124);
+  --wht: white;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+header h1.page-title {
+  text-align: center;
+  margin: 20px;
+  font-size: 350%; 
+}
+
+
+main{
+  margin: 10px;
+  padding-top: 50px;
+}
+
+h2.card-header{
+  position: relative;
+  margin-top: -20px;
+  font-size: xx-large;
+  text-align: center;
+  border: 2px solid white;
+  background-color: var(--bg-color);
+  width: 80%;
+  margin-left: 10%;
+  border-radius: 5px;
+  padding: 2.5% 1%;
+}
+
+p{
+  text-align: center;
+  margin: 20px;
+}
+
+figure.card{
+  margin: 10px;
+  border: 2px dashed white;
+}
+
+header p {
+  color: white;
+  padding: 5px
+}
+
+section.row {
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: left;
+  grid-template-rows: repeat(12, 1fr);
+}
+
+section.justify-center {
+  align-items: center;
+  grid-template-columns: repeat(12, 1fr);
+  }
+  
+pre.code-block{
+  padding-top: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  background-image: linear-gradient(
+    rgba(232, 102, 236, 0.3) 0%,
+   rgba(232, 102, 236, 0.6) 100%);
+}
+
+code{
+  text-align: left;
+  background-color: transparent;
+  color: var(--wht);
+}
+
+ footer{
+  display: flex;
+  justify-content: center;
+  color: var(--main-color);
+  }
+
+div.card-body{
+  margin: 10px;
+}
+
+div.card-column {
+  height: 400px;
+  width: 400px
+}
